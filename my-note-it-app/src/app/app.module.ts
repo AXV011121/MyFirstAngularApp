@@ -14,12 +14,16 @@ import { CommonModule } from '@angular/common';
 import { MatSliderModule } from '@angular/material/slider';
 import { RoutingModule } from './routing/routing.module';
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NotesComponent } from './notes/notes.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent,
+    NotesComponent
   ],
   imports: [
     BrowserModule,
